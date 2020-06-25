@@ -1,0 +1,51 @@
+
+
+body{
+    font-family: "Roboto", sans-serif;
+    background-color: #f2f2f2;
+}
+
+
+
+li:hover {
+    color: #ff5c0f;   
+
+}
+
+img{
+    float: right;
+}
+
+
+   button{
+       width: 100%; /*all buttons should be 100% width on mobile and go to auto with on desktop*/
+       padding: 12px;
+       border-radius: 10px;
+       border: none;
+       background-color: #20a8b4;
+       color: #ff5c0f;
+ }
+
+
+    button:hover {
+    background-color: #ff5c0f;
+    color: #000;
+}
+
+@media only screen and (min-width: 768px) {
+    /* For mobile-first: */
+    [class*="col-"] {
+      width: 100%;
+    }
+
+}
+h1 {
+    color: #20a8b4;
+  }
+  span {
+    color: #ff5c0f;
+  }
+
+
+
+  
